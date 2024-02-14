@@ -1,0 +1,102 @@
+.myPagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 45px;
+}
+.recent-jobs-layout .myPagination .next,
+.recent-jobs-layout .myPagination .previous {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d3d3d3;
+}
+.myPagination .next,
+.myPagination .previous {
+  background: linear-gradient(to right, #28bdfd, #05547f);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #d3d3d3;
+}
+.next svg,
+.previous svg {
+  color: #fff !important;
+}
+.recent-jobs-layout .myPagination .next svg,
+.recent-jobs-layout .myPagination .previous svg {
+  color: #68cefa !important;
+}
+.myPagination li {
+  color: #000000;
+}
+
+.recent-jobs-layout .myPagination li.active.selected {
+  color: #ffffff !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px) {
+  .recent-jobs-layout .myPagination li.active.selected {
+    color: #000 !important;
+  }
+  .myPagination {
+    gap: 15px !important;
+  }
+}
+
+.myPagination li.active.selected {
+  color: #000000 !important;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.myPagination .disabled {
+  opacity: 0.4;
+}
+
+.recent-jobs .card-body {
+  background: linear-gradient(45deg, #acecff6d, #fafafabd, #ffc9c9b1);
+  background-size: 400% 400%;
+  animation: gradientAnimation 6s ease infinite;
+  border-radius: 8px;
+}
+.recent-jobs .card:hover .card-body {
+  box-shadow: 0px 0px 5px 1px #9999995f;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.mobile-sorting-option {
+  position: unset !important;
+}
+@media screen and (max-width: 790px) {
+  .mobile-sorting-option {
+    position: fixed !important;
+    z-index: 100;
+    width: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 400px;
+    overflow-y: scroll;
+    z-index: 1000;
+  }
+}

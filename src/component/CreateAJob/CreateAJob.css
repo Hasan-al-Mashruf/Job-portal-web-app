@@ -1,0 +1,75 @@
+/* gl;obal css */
+
+input:checked ~ .check {
+  border: 4px solid #38bdf8 !important;
+}
+/*  */
+
+.create-a-job ::placeholder,
+.create-a-job .css-1jqq78o-placeholder {
+  font-weight: 400 !important;
+  text-transform: uppercase !important;
+  font-size: 14px !important;
+  line-height: 24px !important;
+  font-family: "Work Sans", sans-serif !important;
+  color: #999 !important;
+}
+.create-a-job input {
+  padding: 14px 0;
+  line-height: 1;
+  border: none;
+  /* color: #999; */
+}
+.create-a-job .css-1dimb5e-singleValue {
+  /* color: #999 !important; */
+}
+.form-input::before {
+  content: "";
+  width: 1px;
+  height: 14px;
+  background: #99999956;
+  position: absolute;
+  left: 41px;
+  z-index: 100;
+}
+.create-a-job .css-t3ipsp-control .css-1n3jj41-control {
+  border-color: #fff !important;
+}
+
+.create-a-job .css-79by0k-control:hover {
+  border: transparent !important;
+}
+
+.create-a-job .form-input input:focus-visible {
+  border: 0 !important;
+  outline: 0 !important;
+}
+.form-input:focus-within,
+.form-textarea:focus-visible {
+  border: 1px solid #065b7f !important;
+  outline: none !important;
+}
+.create-a-job .rdp {
+  margin: 0 !important;
+}
+
+.create-a-job .rdp-months {
+  position: absolute;
+  left: 0%;
+  top: 76px;
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 8px;
+  padding: 10px;
+  z-index: 100;
+}
+.react-select__control {
+  border: inherit !important;
+  border-radius: 10px !important;
+}
+.react-select__control.css-t3ipsp-control {
+  box-shadow: none !important;
+}
+.rdp-day_selected {
+  color: #38bdf8 !important;
+}
