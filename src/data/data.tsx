@@ -14,14 +14,14 @@ export const filterDateData = [
 ];
 
 export const jobTypes = [
-  { value: "full_time", label: "Full Time", type: "jobTypes" },
-  { value: "part_time", label: "Part Time", type: "jobTypes" },
-  { value: "contract", label: "Contract", type: "jobTypes" },
+  { value: "Full_time", label: "Full Time", type: "jobTypes" },
+  { value: "Part_time", label: "Part Time", type: "jobTypes" },
+  { value: "Contract", label: "Contract", type: "jobTypes" },
 ];
 export const experienceLevels = [
-  { value: "entry_level", label: "Entry Level", type: "experienceLevels" },
-  { value: "mid_level", label: "Mid Level", type: "experienceLevels" },
-  { value: "senior_level", label: "Senior Level", type: "experienceLevels" },
+  { value: "Entry_level", label: "Entry Level", type: "experienceLevels" },
+  { value: "Mid_level", label: "Mid Level", type: "experienceLevels" },
+  { value: "Senior_level", label: "Senior Level", type: "experienceLevels" },
 ];
 
 export const locations = [

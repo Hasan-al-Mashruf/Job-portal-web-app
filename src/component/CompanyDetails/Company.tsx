@@ -39,7 +39,7 @@ const Company: React.FC<CompanyType> = ({
             <li className="text-sm font-normal text-[#6a6a6a] flex items-center gap-1">
               <TbNorthStar className="text-[#00b3ffc2]" />
               Location:
-              {companyLocation ? companyLocation : "location is not provided"}
+              {companyLocation ? companyLocation : " location is not provided"}
             </li>
             <li className="text-sm font-normal text-[#6a6a6a] flex items-center gap-1">
               <TbNorthStar className="text-[#00b3ffc2]" />

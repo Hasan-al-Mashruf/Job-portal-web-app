@@ -111,7 +111,7 @@ const Jobs: React.FC<JobsType> = ({
                       <img
                         src={job?.img}
                         alt=""
-                        className="w-12 h-12 rounded-full border border-gray-400 object-contain"
+                        className="w-12 h-12 rounded-full border border-gray-400 object-cover"
                       />
                       <div className="flex justify-between flex-1 items-center border-b pb-2 border-[#9999995e]">
                         <div>
@@ -177,7 +177,7 @@ const Jobs: React.FC<JobsType> = ({
                       <img
                         src={job?.img}
                         alt=""
-                        className="w-12 h-12 rounded-full border border-gray-400 object-contain"
+                        className="w-12 h-12 rounded-full border border-gray-400 object-cover"
                       />
                       <div className="flex justify-between flex-1 items-center border-b pb-2 border-[#9999995e]">
                         <div>
